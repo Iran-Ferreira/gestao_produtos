@@ -90,7 +90,7 @@ async function exibirDados() {
                     <td>${dado.preco}</td>
                     <td>${dado.descricao}</td>
                     <td>
-                        <img src="${dado.imagem}" alt="Produto" width="400" height="100">
+                        <img src="${dado.imagem}" alt="Produto" width="100" height="100">
                     </td>
                     <td><i class="bi bi-pencil-square" style="cursor: pointer" onclick="editarDados(${dado.id})"></i></td>
                     <td><i class="bi bi-trash" style="cursor: pointer" onclick="removerDados(${dado.id})"></i></td>
